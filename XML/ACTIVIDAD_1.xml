@@ -1,1 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<listaventa>
+        <venta>
+            <Importe></Importe>
+            <Comprador></Comprador>
+            <Vendedor></Vendedor>
+            <Fecha></Fecha>
+            <CodigoFactura></CodigoFactura>
+        </venta>
+        
+        <venta>
+            <Importe></Importe>
+            <Comprador></Comprador>
+            <Vendedor></Vendedor>
+            <Fecha></Fecha>
+            <CodigoFactura></CodigoFactura>
+        </venta>
+</listaventa>
