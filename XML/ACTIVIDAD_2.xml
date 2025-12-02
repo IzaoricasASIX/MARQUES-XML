@@ -1,1 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE PEDIDOS [
+  <!ELEMENT PEDIDOS (Pedido)*>
+  <!ELEMENT Pedido (NumSerie, Cantidad)>
+  <!ELEMENT NumSerie (#PCDATA)>
+  <!ELEMENT Cantidad (#PCDATA)>
+]>
+<PEDIDOS>
+</PEDIDOS>
