@@ -1,1 +1,40 @@
 <?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE Operaciones [
+    <!ELEMENT Operaciones (Operación+)>
+    <!ELEMENT Operación (Venta, Compra, TitulosComprados)>
+    <!ELEMENT Venta (TitulosVendidos)>
+    <!ELEMENT TitulosVendidos (Titulo, CantidadTotal, Entrega, Moneda)>
+    <!ELEMENT Titulo (#PCDATA)>
+    <!ELEMENT CantidadTotal (#PCDATA)>
+    <!ELEMENT Entrega (#PCDATA)>
+    <!ELEMENT Moneda (#PCDATA)>
+    <!ELEMENT Compra EMPTY>
+    <!ELEMENT TitulosComprados (Titulo, Proveedor, Fecha)>
+    <!ELEMENT Proveedor (#PCDATA)>
+    <!ELEMENT Fecha (Dia, Mes, Año)>
+    <!ELEMENT Dia (#PCDATA)>
+    <!ELEMENT Mes (#PCDATA)>
+    <!ELEMENT Año (#PCDATA)>
+]>
+<Operaciones>
+    <Operación>
+        <Venta>
+            <TitulosVendidos>
+                <Titulo></Titulo>
+                <CantidadTotal></CantidadTotal>
+                <Entrega></Entrega>
+                <Moneda></Moneda>
+            </TitulosVendidos>
+        </Venta>
+        <Compra></Compra>
+        <TitulosComprados>
+            <Titulo></Titulo>
+            <Proveedor></Proveedor>
+            <Fecha>
+                <Dia></Dia>
+                <Mes></Mes>
+                <Año></Año>
+            </Fecha>
+        </TitulosComprados>
+    </Operación>
+</Operaciones>
