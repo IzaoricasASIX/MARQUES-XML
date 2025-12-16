@@ -1,0 +1,55 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE FESTIVAL [
+    <!ELEMENT FESTIVAL (#PCDATA)>
+    <!ELEMENT ARTISTES (#PCDATA)>
+    <!ELEMENT ARTISTA (#PCDATA)>
+    <!ELEMENT NUMBRE (#PCDATA)>
+    <!ELEMENT GENERO (#PCDATA)>
+    <!ELEMENT PAIS (#PCDATA)>
+    <!ELEMENT CARTEL (#PCDATA)>
+    <!ELEMENT ESCENARIO (#PCDATA)>
+    <!ELEMENT NOMBRE (#PCDATA)>
+    <!ELEMENT ACTUACIÓN (#PCDATA)>
+    <!ELEMENT ACTUACION (#PCDATA)>
+    <!ELEMENT ArtistaNombre (#PCDATA)>
+    <!ELEMENT DIA (#PCDATA)>
+    <!ELEMENT EL_TIPUS (#PCDATA)>
+    <!ELEMENT ENTRADITAS (#PCDATA)>
+    <!ELEMENT TipusEntrada (#PCDATA)>
+    <!ELEMENT MODALIDADE (#PCDATA)>
+    <!ELEMENT EL_PRECIO (#PCDATA)>
+    <!ELEMENT AVANTAGES (#PCDATA)>
+]>
+
+<FESTIVAL>
+    <ARTISTES>
+        <ARTISTA>
+            <NUMBRE>Nombre</NUMBRE>
+            <GENERO>32</GENERO>
+            <PAIS>Chinolandia</PAIS>
+        </ARTISTA>
+    </ARTISTES>
+    <CARTEL>
+        <ESCENARIO>
+            <NOMBRE>Ximo Puig</NOMBRE>
+            <ACTUACIÓN>Una</ACTUACIÓN>
+        </ESCENARIO>
+        <ACTUACION>
+            <ArtistaNombre>Eloy</ArtistaNombre>
+            <DIA>Ayer</DIA>
+            <EL_TIPUS>Tipus</EL_TIPUS>
+        </ACTUACION>
+    </CARTEL>
+    <ENTRADITAS>
+        <TipusEntrada>
+            <MODALIDADE>La Otra</MODALIDADE>
+            <EL_PRECIO>4</EL_PRECIO>
+            <AVANTAGES>No hay Leche</AVANTAGES>
+        </TipusEntrada>
+        <TipusEntrada>
+            <MODALIDADE>Ixa</MODALIDADE>
+            <EL_PRECIO>7</EL_PRECIO>
+            <AVANTAGES>Hay Leche</AVANTAGES>
+        </TipusEntrada>
+    </ENTRADITAS>
+</FESTIVAL>

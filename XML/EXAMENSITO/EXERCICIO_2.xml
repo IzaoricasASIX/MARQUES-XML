@@ -1,0 +1,73 @@
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE INVENTARIU_ESPORTIVO [
+    <!ELEMENT INVENTARIU_ESPORTIVO (#PCDATA)>
+    <!ELEMENT CATALOGO (#PCDATA)>
+    <!ELEMENT PAQUETITO (#PCDATA)>
+    <!ELEMENT NOM (#PCDATA)>
+    <!ELEMENT DESC. (#PCDATA)>
+    <!ELEMENT COCHIUS (#PCDATA)>
+    <!ELEMENT EL_COCHE (#PCDATA)>
+    <!ELEMENT MARCA (#PCDATA)>
+    <!ELEMENT MODELU (#PCDATA)>
+    <!ELEMENT MOTORR (#PCDATA)>
+    <!ELEMENT COMBUSTIONACIÓN (#PCDATA)>
+    <!ELEMENT CILINDRADA (#PCDATA)>
+    <!ELEMENT POTENCIA (#PCDATA)>
+    <!ELEMENT EL_TURBITO (#PCDATA)>
+    <!ELEMENT ELECTRICO (#PCDATA)>
+    <!ELEMENT BATERIA (#PCDATA)>
+    <!ELEMENT PUTENCIA (#PCDATA)>
+    <!ELEMENT PRESTACIONES (#PCDATA)>
+    <!ELEMENT VELÓCIDAD_MAXIMA (#PCDATA)>
+    <!ELEMENT ACELERACIÓN (#PCDATA)>
+    <!ELEMENT HOMOLOGACION (#PCDATA)>
+    <!ELEMENT CICLOS (#PCDATA)>
+    <!ELEMENT CONSUM (#PCDATA)>
+    <!ELEMENT NOM_PAQUETITO (#PCDATA)>
+    <!ELEMENT EQUIPO (#PCDATA)>
+]>
+
+<INVENTARIU_ESPORTIVO>
+    <CATALOGO>
+        <PAQUETITO>
+            <NOM>Cumaraña</NOM>
+            <DESC.>32</DESC.>
+        </PAQUETITO>
+        <PAQUETITO>
+            <NOM>Cumaraña2</NOM>
+            <DESC.>32_2</DESC.>
+        </PAQUETITO>
+    </CATALOGO>
+    <COCHIUS>
+        <EL_COCHE>
+            <MARCA>Una Marca</MARCA>
+            <MODELU>Eloy</MODELU>
+            <MOTORR>
+                <COMBUSTIONACIÓN>
+                    <CILINDRADA>2</CILINDRADA>
+                    <POTENCIA>66</POTENCIA>
+                    <EL_TURBITO>Home Claro que sí</EL_TURBITO>
+                </COMBUSTIONACIÓN>
+                <ELECTRICO>
+                    <BATERIA>Bateria</BATERIA>
+                    <PUTENCIA>Mucha</PUTENCIA>
+                </ELECTRICO>
+            </MOTORR>
+            <PRESTACIONES>
+                <VELÓCIDAD_MAXIMA>25</VELÓCIDAD_MAXIMA>
+                <ACELERACIÓN>2</ACELERACIÓN>
+            </PRESTACIONES>
+            <HOMOLOGACION>
+                <CICLOS>2</CICLOS>
+                <CONSUM>3</CONSUM>
+                <NOM_PAQUETITO>Cumaraña</NOM_PAQUETITO>
+            </HOMOLOGACION>
+            <HOMOLOGACION>
+                <CICLOS>1</CICLOS>
+                <CONSUM>7</CONSUM>
+                <NOM_PAQUETITO>Cumaraña2</NOM_PAQUETITO>
+            </HOMOLOGACION>
+            <EQUIPO>El Barça</EQUIPO>
+        </EL_COCHE>
+    </COCHIUS>
+</INVENTARIU_ESPORTIVO>
